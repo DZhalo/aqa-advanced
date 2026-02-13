@@ -1,8 +1,8 @@
-let myString = "Lorem ipsum dolor..";
+let myString = 'Lorem ipsum dolor..';
 let myNumber = 29;
 let myBoolean = true;
 let myNull = null;
-let myUndefined;
+let myUndefined = undefined;
 
 console.log(myString);
 console.log(myNumber);
