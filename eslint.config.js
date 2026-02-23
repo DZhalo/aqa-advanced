@@ -20,6 +20,14 @@ export default [
 			},
 		},
 	},
+	{
+    	files: ["**/*.test.{js,mjs,cjs}", "**/__tests__/**/*.{js,mjs,cjs}"],
+    	languageOptions: {
+     	 globals: {
+       	 ...globals.jest,
+      	},
+    },
+  },
 
 	eslintConfigPrettier,
 ];
